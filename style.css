@@ -1,0 +1,104 @@
+body{
+
+    background-image: url("islandfinal-full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.secondbackground{
+
+    width: 75%;
+    background: rgba(136, 138, 141, 0.6);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border: 2px solid rgba(172, 174, 179, 0.6);
+    border-radius: 8px;
+    box-shadow: rgba(65, 65, 66, 0.5) 9px 9px 15px,rgba(65, 65, 66, 0.5) -9px -9px 15px, rgba(65, 65, 66, 0.5) 9px -9px 15px, rgba(65, 65, 66, 0.5) -9px 9px 15px;
+}
+
+.thirdbackground{
+    background-color: #4b5f69;
+    border-radius: 10px;
+    padding: 3%;
+
+}
+
+.navbar{
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.navbutton{
+    background: #c7cfd3;
+    border: 1px black solid;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 150ms ease-in-out 0s;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    
+}
+
+.navbutton:hover{
+    background-color: #9bc9dd;
+    
+}
+
+hr{
+    margin-top: 28px;
+    color: #c7cfd3;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #c7cfd3;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c7cfd3;
+    line-height: 25px;
+}
+
+/* Media query for smaller resolutions */
+@media screen and (max-width: 768px) {
+    .navbutton {
+      font-size: 14px;
+    }
+    .p{
+        font-size: 12.5px;
+    }
+    .h1{
+        font-size: 25px
+    }
+  }
+  
+  /* Media query for larger resolutions */
+  @media screen and (min-width: 1200px) {
+    .navbutton {
+      font-size: 18px;
+    }
+    .p{
+        font-size: 14px;
+    }
+    .h1{
+        font-size: 28px
+    }
+    
+  }
+
+  .storaprojektet_bild{
+    width: 50%;
+    float: right;
+    margin-left: 50px;
+    border: 1px solid #c7cfd3;
+    border-radius: 3px;
+  }
