@@ -62,10 +62,24 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: #c7cfd3;
 }
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #c7cfd3;
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: #c7cfd3;
     line-height: 25px;
+}
+
+.download_gymnasiearbete{
+    font-size: 20px;
+    text-decoration: none;
+    color: #9bc9dd;
+}
+
+.download_gymnasiearbete:hover{
+    text-decoration: underline;
 }
 
 /* Media query for smaller resolutions */
@@ -79,6 +93,9 @@ p{
     .h1{
         font-size: 25px
     }
+    .h2{
+        font-size: 22px;
+    }
   }
   
   /* Media query for larger resolutions */
@@ -91,6 +108,9 @@ p{
     }
     .h1{
         font-size: 28px
+    }
+    .h2{
+        font-size: 19.5px;
     }
     
   }
